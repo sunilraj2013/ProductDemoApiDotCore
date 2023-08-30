@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sunil\\ProductDemoApi\\TestProject1\\TestProject1.csproj": {}
+  },
+  "projects": {
+    "E:\\Sunil\\ProductDemoApi\\ProductDemoApi\\ProductDemoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sunil\\ProductDemoApi\\ProductDemoApi\\ProductDemoApi.csproj",
+        "projectName": "ProductDemoApi",
+        "projectPath": "E:\\Sunil\\ProductDemoApi\\ProductDemoApi\\ProductDemoApi.csproj",
+        "packagesPath": "C:\\Users\\IT-2\\.nuget\\packages\\",
+        "outputPath": "E:\\Sunil\\ProductDemoApi\\ProductDemoApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IT-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Sunil\\ProductDemoApi\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sunil\\ProductDemoApi\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "E:\\Sunil\\ProductDemoApi\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\IT-2\\.nuget\\packages\\",
+        "outputPath": "E:\\Sunil\\ProductDemoApi\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\IT-2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "E:\\Sunil\\ProductDemoApi\\ProductDemoApi\\ProductDemoApi.csproj": {
+                "projectPath": "E:\\Sunil\\ProductDemoApi\\ProductDemoApi\\ProductDemoApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
